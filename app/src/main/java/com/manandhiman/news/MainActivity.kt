@@ -26,8 +26,12 @@ class MainActivity : AppCompatActivity() {
             getJSONArray()
             binding.swipeRefreshLayout.isRefreshing = false
         }
-//        val dummyPost = Post("title1","content1","url1")
-//        postsList.add(dummyPost)
+
+//        binding.recyclerView.layoutManager = LinearLayoutManager(this)
+//        postsList.add(Post("title1","content1","url1"))
+//        val adapter = RecyclerViewAdapter(postsList, this)
+//        binding.recyclerView.adapter = adapter
+
         getJSONArray()
     }
 
